@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: public.ecr.aws/e3n7g6m7/hemantkumarintel:latest
+          image: 388328004932.dkr.ecr.ap-northeast-3.amazonaws.com/hemantkumarintel:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5002
